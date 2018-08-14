@@ -1,0 +1,21 @@
+[package]
+name = "ratchet"
+version = "0.1.0"
+license = "MIT/Apache-2.0"
+homepage = "https://github.com/devolutions/ratchet-rs"
+repository = "https://github.com/devolutions/ratchet-rs"
+authors = ["Marc-André Moreau <marcandre.moreau@gmail.com>"]
+keywords = ["webrtc", "ice", "p2p"]
+description = "Rust WebRTC stack"
+
+[dependencies]
+fibers = "0.1"
+futures = "0.1"
+handy_async = "0.2"
+
+[dependencies.rustun]
+version = "0.1.5"
+
+[dependencies.rusturn]
+git = "https://github.com/sile/rusturn"
+rev = "386dd1e"
